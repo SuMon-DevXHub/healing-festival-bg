@@ -192,6 +192,15 @@
   }
 }
 @media (max-width: 767px) {
+  .font-size {
+    font-size: 46px;
+  }
+  .large-block {
+    display: none;
+  }
+  .large-hidden {
+    display: block;
+  }
   .about-ser h6 {
     margin-top: 50px;
   }

@@ -409,7 +409,7 @@ header .nav {
 header .logo {
   float: left;
   position: relative;
-  padding: 29px 0;
+  padding: 20px 0;
   -webkit-transition: 0.2s ease-in-out;
   -moz-transition: 0.2s ease-in-out;
   -ms-transition: 0.2s ease-in-out;
@@ -1449,6 +1449,9 @@ header .user-basket .cart-num {
 .about-ser {
   padding: 140px 0;
 }
+.about-ser p {
+  font-size: 18px;
+}
 .about-ser h3 {
   font-size: 20px;
   margin-top: 0px;
@@ -1699,6 +1702,9 @@ header .user-basket .cart-num {
   display: inline-block;
   margin-bottom: 0px;
   background-color: #f5f5f5;
+}
+.main-page-section p {
+  font-size: 18px;
 }
 .main-half-layout.half_right_layout {
   right: 0;
@@ -3940,6 +3946,9 @@ footer .links-footer li a:hover {
   padding: 150px 0;
   background: url(../images/11.webp) no-repeat;
   background-size: cover;
+}
+.testimonial p {
+  font-size: 18px;
 }
 .testimonial .slider-sec {
   max-width: 750px;
@@ -7618,12 +7627,6 @@ header.white-header #cd-menu-trigger.is-clicked .cd-menu-icon {
 .rightColumn {
   width: 22%;
 }
-.join-us {
-  height: 80vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 @media (max-width: 991px) {
   .eventNewRow {
     flex-direction: column;
@@ -7667,5 +7670,23 @@ header.white-header #cd-menu-trigger.is-clicked .cd-menu-icon {
   .rightColumn {
     width: 83.333333333333%;
   }
+}
+.about-ser p {
+  font-size: 14px;
+}
+.main-page-section p {
+  font-size: 14px;
+}
+.testimonial p {
+  font-size: 14px;
+}
+.font-size {
+  font-size: 40px;
+}
+.large-block {
+  display: block;
+}
+.large-hidden {
+  display: none;
 }
 /* End New Style DEVxHUB S */
