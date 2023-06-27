@@ -7690,7 +7690,7 @@ header.white-header #cd-menu-trigger.is-clicked .cd-menu-icon {
 }
 .leftColumn {
   width: 47%;
-  height: 337px;
+  /* height: 337px; */
 }
 .middleColumn {
   display: flex;
@@ -7714,7 +7714,6 @@ header.white-header #cd-menu-trigger.is-clicked .cd-menu-icon {
 }
 .rightColumn {
   width: 22%;
-  height: 337px;
 }
 @media (max-width: 991px) {
   .eventNewRow {
@@ -7792,10 +7791,10 @@ header.white-header #cd-menu-trigger.is-clicked .cd-menu-icon {
   text-shadow: 0px 0px 5px rgba(255, 255, 255);
 }
 @media (max-width: 1199px) and (min-width: 768px) {
-  .leftColumn,
+  /* .leftColumn,
   .rightColumn {
     height: 213px;
-  }
+  } */
 }
 @media (max-width: 1023px) and (min-width: 768px) {
   .our-team-bg {
@@ -7851,7 +7850,7 @@ header.white-header #cd-menu-trigger.is-clicked .cd-menu-icon {
     width: 70%;
     text-shadow: 0px 0px 5px rgba(255, 255, 255);
   }
-  .bottom-text{
+  .bottom-text {
     font-size: 2vw;
     line-height: 2.5vw;
     text-shadow: 0px 0px 5px rgba(255, 255, 255);
@@ -8024,9 +8023,20 @@ header.white-header #cd-menu-trigger.is-clicked .cd-menu-icon {
     width: 70%;
     text-shadow: 0px 0px 5px rgba(255, 255, 255);
   }
-  .bottom-text{
+  .bottom-text {
     font-size: 3.5vw;
     line-height: 4vw;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255);
+  }
+  .glimpseFreedomHeading {
+    font-size: 6vw;
+    line-height: 6.5vw;
+    text-align: left;
+  }
+  .glimpseFreedomIntro p {
+    font-size: 4vw;
+    line-height: 4.5vw;
+    color: #000000;
     text-shadow: 0px 0px 5px rgba(255, 255, 255);
   }
 }
@@ -8271,8 +8281,6 @@ header.white-header #cd-menu-trigger.is-clicked .cd-menu-icon {
   text-align: left;
 }
 .glimpseFreedomHeading {
-  font-size: 30px;
-  line-height: 36px;
   text-align: center;
 }
 .glimpseFreedomHorizontal {
@@ -8283,27 +8291,18 @@ header.white-header #cd-menu-trigger.is-clicked .cd-menu-icon {
   width: 100%;
   border-color: #000000;
 }
-.glimpseFreedomIntro p {
-  font-size: 20px;
-  line-height: 28px;
-  color: #000000;
-  text-shadow: 0px 0px 5px rgba(255, 255, 255);
-}
 .glimpseFreedomSingleLine {
   text-align: center;
 }
 
 @media (min-width: 768px) {
   .glimpseFreedomBg {
-    height: 120vw;
+    height: 80vw;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 100vw;
-    max-height: 900px;
+    /* max-height: 900px; */
     max-width: 100%;
-  }
-  .glimpseFreedomHeading {
-    text-align: left;
   }
   .glimpseFreedomHorizontal {
     width: 60%;
@@ -8335,6 +8334,22 @@ header.white-header #cd-menu-trigger.is-clicked .cd-menu-icon {
     line-height: 2.5vw;
     text-shadow: 0px 0px 5px rgba(255, 255, 255);
   }
+  .new-main-container{
+    width: 60%;
+    /* margin-left:100px;
+    margin-right: 100px; */
+  }
+  .glimpseFreedomHeading {
+    font-size: 2.5vw;
+    line-height: 3vw;
+    text-align: left;
+  }
+  .glimpseFreedomIntro p {
+    font-size: 2vw;
+    line-height: 2.5vw;
+    color: #000000;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255);
+  }
 }
 @media (min-width: 1024px) {
   .nowRelaxOctober > * > p {
@@ -8343,9 +8358,25 @@ header.white-header #cd-menu-trigger.is-clicked .cd-menu-icon {
     width: 70%;
     text-shadow: 0px 0px 5px rgba(255, 255, 255);
   }
-  .bottom-text{
+  .bottom-text {
     font-size: 1.5vw;
     line-height: 2vw;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255);
+  }
+  .new-main-container{
+    width: 60%;
+    /* margin-left:100px;
+    margin-right: 100px; */
+  }
+  .glimpseFreedomHeading {
+    font-size: 2.5vw;
+    line-height: 3vw;
+    text-align: left;
+  }
+  .glimpseFreedomIntro p {
+    font-size: 1.5vw;
+    line-height: 2vw;
+    color: #000000;
     text-shadow: 0px 0px 5px rgba(255, 255, 255);
   }
 }
