@@ -192,6 +192,9 @@
   }
 }
 @media (max-width: 767px) {
+  .profile-hr{
+    width: 100%;
+  }
   .font-size {
     font-size: 46px;
   }
@@ -849,7 +852,10 @@
     width: 50%;
   }
 }
-@media (max-width: 320px) {
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* .profile-hr{
+    width: 600px;
+  } */
 }
 @media (max-height: 700px) {
 }

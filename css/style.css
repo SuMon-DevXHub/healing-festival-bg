@@ -211,7 +211,7 @@ section {
   margin-bottom: 20px;
   display: inline-block;
   width: 100%;
-  text-align: center;
+  text-align: left;
 }
 .heading-block h2 {
   font-weight: 600;
@@ -246,7 +246,7 @@ section {
 }
 .heading-block h3 {
 }
-.heading-block h3:after {
+/* .heading-block h3:after {
   bottom: -15px;
   height: 1px;
   left: 0px;
@@ -267,7 +267,7 @@ section {
   margin: 0 auto;
   background: #252839;
   content: "";
-}
+} */
 .heading-block hr {
   width: 1px;
   content: "";
@@ -1437,11 +1437,15 @@ header .user-basket .cart-num {
   margin-bottom: 60px;
 }
 .intro-small p {
-  font-size: 18px;
+  white-space: nowrap;
+  font-size: 2vw;
+  /* line-height: 2vw; */
   font-weight: normal;
-  line-height: 30px;
+  line-height: 2.5vw;
   text-align: center;
   margin-bottom: 0px;
+  text-shadow: 0px 0px 5px rgba(255, 255, 255);
+  color: black;
 }
 .intro-small.white p {
   color: #fff;
@@ -1793,7 +1797,7 @@ header .user-basket .cart-num {
   display: inline-block;
   margin-bottom: 0px;
 }
-.portfolio-item h4 a {
+.portfolio-item h4 {
   font-size: 16px;
   color: #fff;
   text-transform: uppercase;
@@ -1853,7 +1857,7 @@ header .user-basket .cart-num {
 .portfolio .position-bottom h4 {
   margin: 0px;
 }
-.portfolio .position-bottom h4 a {
+.portfolio .position-bottom h4 {
   color: #fff;
 }
 .portfolio .position-bottom p {
@@ -2210,7 +2214,29 @@ header .user-basket .cart-num {
       OUR TEAM
 ========================================================*/
 .our-team {
-  background: #f5f5f5;
+  background: #fff;
+  position: relative;
+}
+.our-team-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.our-team-bg {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 40vw;
+  height: 65vw;
+  max-height: 65vw;
+  min-height: 70vw;
+}
+.our-team-text-box {
+  position: absolute;
+  right: 0px;
+  width: 60vw;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-right: 40px;
 }
 .our-team article {
   position: relative;
@@ -2230,12 +2256,14 @@ header .user-basket .cart-num {
 }
 .team-name {
   position: relative;
-  padding: 25px 0;
+  padding: 25px 16px;
   text-align: center;
   background: #f5f5f5;
 }
 .team-name p {
   margin-bottom: 0px;
+  font-size: 1.5vw;
+  line-height: 2vw;
 }
 .team-name h6 {
   text-transform: uppercase;
@@ -2761,6 +2789,9 @@ header .user-basket .cart-num {
 }
 .skill-bg.colr .progress-bars p {
   color: #fff;
+}
+.intro-small p{
+  color: #000;
 }
 .skill-bg.colr .skill-bg .intro-small p {
   color: #fff;
@@ -7587,6 +7618,12 @@ header.white-header #cd-menu-trigger.is-clicked .cd-menu-icon {
   justify-content: center;
   align-items: center;
 }
+.partner p {
+  font-size: 1.5vw;
+  line-height: 2vw;
+  color: black;
+  text-shadow: 0px 0px 5px rgba(255, 255, 255);
+}
 .height-100 {
   height: 80px;
 }
@@ -7693,6 +7730,36 @@ header.white-header #cd-menu-trigger.is-clicked .cd-menu-icon {
 .main-page-section p {
   font-size: 14px;
 }
+@media (max-width: 1023px) and (min-width: 768px) {
+  .our-team-bg {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 65vw;
+    height: 65vw;
+    max-height: 85vw;
+    min-height: 85vw;
+  }
+  .our-team-text-box {
+    position: absolute;
+    width: 100%;
+    padding-left: 40px;
+  }
+  .intro-small p {
+    font-size: 2.5vw;
+    line-height: 3vw;
+  }
+  .partner p {
+    font-size: 2vw;
+    line-height: 2.5vw;
+    color: black;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255);
+  }
+  .team-name p {
+    margin-bottom: 0px;
+    font-size: 2vw;
+    line-height: 2.5vw;
+  }
+}
 @media (max-width: 767px) {
   .about-ser {
     padding: 140px 0;
@@ -7740,8 +7807,9 @@ header.white-header #cd-menu-trigger.is-clicked .cd-menu-icon {
   }
   .about-ser p,
   .bird-ser p {
-    font-size: 4.5vw;
-    line-height: 4.5vw;
+    font-size: 14px;
+    margin-bottom: 0px;
+    line-height: 22px;
     text-shadow: 0px 0px 5px rgba(255, 255, 255);
   }
   .about-ser .second {
@@ -7785,6 +7853,35 @@ header.white-header #cd-menu-trigger.is-clicked .cd-menu-icon {
   .rightColumn {
     width: 83.333333333333%;
   }
+  .intro-small p {
+    white-space: normal;
+  }
+  .our-team-bg {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    min-height: 100%;
+  }
+  .our-team-text-box {
+    position: relative;
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .partner p {
+    font-size: 14px;
+    line-height: 18px;
+    color: black;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255);
+  }
+  .team-name p {
+    margin-bottom: 0px;
+    font-size: 3.5vw;
+    line-height: 4vw;
+    color: #000;
+  }
 }
 .testimonial p {
   font-size: 14px;
@@ -7797,6 +7894,11 @@ header.white-header #cd-menu-trigger.is-clicked .cd-menu-icon {
 }
 .large-hidden {
   display: none;
+}
+.profile-hr{
+  height: 2px;
+  background-color: 	#5A5A5A;
+  width: 640px;
 }
 /* End New Style DEVxHUB S */
 
