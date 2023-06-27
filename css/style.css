@@ -207,11 +207,17 @@ section {
 /*=======================================================
       HEADINGS
 ========================================================*/
-.heading-block {
+.heading-block-profile {
   margin-bottom: 60px;
   display: inline-block;
   width: 100%;
   text-align: left;
+}
+.heading-block {
+  margin-bottom: 60px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
 }
 .heading-block h2 {
   font-weight: 600;
@@ -246,7 +252,7 @@ section {
 }
 .heading-block h3 {
 }
-/* .heading-block h3:after {
+.heading-block h3:after {
   bottom: -15px;
   height: 1px;
   left: 0px;
@@ -267,7 +273,7 @@ section {
   margin: 0 auto;
   background: #252839;
   content: "";
-} */
+}
 .heading-block hr {
   width: 1px;
   content: "";
@@ -3714,6 +3720,10 @@ footer {
 }
 .foot-logo {
   margin-bottom: 30px;
+  height: 38px;
+}
+.no-wrap {
+  white-space: nowrap;
 }
 footer .links li {
   display: inline-block;
@@ -3841,18 +3851,18 @@ footer ul li.hire-me-link a {
   color: #fff;
   font-size: 14px;
   margin: 0 5px;
-  height: 30px;
-  width: 30px;
-  text-align: center;
+  /* height: 30px;
+  width: 30px; */
+  /* text-align: center;
   line-height: 30px;
-  border-radius: 50%;
+  border-radius: 50%; */
   margin: 0 3px;
   display: inline-block;
 }
-.foot-down a:hover {
+/* .foot-down a:hover {
   background: #fff;
   color: #000;
-}
+} */
 .footer-shop h4 {
   font-size: 20px;
   color: #fff;
@@ -7781,7 +7791,19 @@ header.white-header #cd-menu-trigger.is-clicked .cd-menu-icon {
     text-shadow: 0px 0px 5px rgba(255, 255, 255);
   }
 }
+.center-1 {
+  text-align: left;
+}
+.center-2 {
+  text-align: right;
+}
 @media (max-width: 767px) {
+  .center-1 {
+    text-align: center;
+  }
+  .center-2 {
+    text-align: center;
+  }
   .about-ser {
     padding: 140px 0;
     height: 90vw;
