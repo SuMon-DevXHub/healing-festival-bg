@@ -1217,9 +1217,7 @@
   <!-- End Page Wrapper -->
 
   <!-- JavaScripts -->
-
   <script>
-
     // Toggle FAQ
     let expandedItems = [];
     const toggleFaq = (selectedId) => {
@@ -1240,13 +1238,6 @@
       expandedItems.forEach((item) => {
         document.getElementById(item).style.display = "block";
       })
-
-      // document.getElementById(selectedId).style.display = "none";
-      // if (expandedItems.includes(id)) {
-      //   expandedItems = expandedItems.filter((item) => item !== id);
-      // } else {
-      //   expandedItems.push(id);
-      // }
     };
     const isExpanded = (id) => {
       return expandedItems.includes(id);
