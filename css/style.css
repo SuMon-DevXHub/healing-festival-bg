@@ -208,7 +208,7 @@ section {
       HEADINGS
 ========================================================*/
 .heading-block {
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   display: inline-block;
   width: 100%;
   text-align: center;
@@ -8005,5 +8005,42 @@ header.white-header #cd-menu-trigger.is-clicked .cd-menu-icon {
   .ulListStyle {
     font-size: 24px;
     line-height: 32px;
+  }
+}
+
+/*=======================================================
+			Glimpse Freedom Style
+========================================================*/
+.glimpseFreedomHeading {
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+}
+.glimpseFreedomHorizontal {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  border: 2px solid;
+  border-bottom-width: 2px;
+  width: 100%;
+  border-color: #000000;
+}
+.glimpseFreedomIntro p {
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+}
+.glimpseFreedomSingleLine {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .glimpseFreedomHeading {
+    text-align: left;
+  }
+  .glimpseFreedomHorizontal {
+    width: 60%;
+  }
+  .glimpseFreedomSingleLine {
+    text-align: left;
   }
 }
