@@ -2790,7 +2790,7 @@ header .user-basket .cart-num {
 .skill-bg.colr .progress-bars p {
   color: #fff;
 }
-.intro-small p{
+.intro-small p {
   color: #000;
 }
 .skill-bg.colr .skill-bg .intro-small p {
@@ -7927,9 +7927,9 @@ header.white-header #cd-menu-trigger.is-clicked .cd-menu-icon {
 .large-hidden {
   display: none;
 }
-.profile-hr{
+.profile-hr {
   height: 2px;
-  background-color: 	#5A5A5A;
+  background-color: #5a5a5a;
   width: 640px;
 }
 /* End New Style DEVxHUB S */
@@ -8139,5 +8139,107 @@ header.white-header #cd-menu-trigger.is-clicked .cd-menu-icon {
   .ulListStyle {
     font-size: 24px;
     line-height: 32px;
+  }
+}
+
+/*=======================================================
+			Glimpse Freedom Style
+========================================================*/
+
+.glimpseFreedomBg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.glimpseFreedomHeadingBlock {
+  margin-bottom: 60px;
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+}
+.glimpseFreedomHeading {
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+}
+.glimpseFreedomHorizontal {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  border: 2px solid;
+  border-bottom-width: 2px;
+  width: 100%;
+  border-color: #000000;
+}
+.glimpseFreedomIntro p {
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+  text-shadow: 0px 0px 5px rgba(255, 255, 255);
+}
+.glimpseFreedomSingleLine {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .glimpseFreedomBg {
+    height: 120vw;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100vw;
+    max-height: 900px;
+    max-width: 100%;
+  }
+  .glimpseFreedomHeading {
+    text-align: left;
+  }
+  .glimpseFreedomHorizontal {
+    width: 60%;
+  }
+  .glimpseFreedomSingleLine {
+    text-align: left;
+  }
+}
+
+/*=======================================================
+			nowRelaxOctober Style
+========================================================*/
+.nowRelaxOctober {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 106vw;
+  width: 100vw;
+  max-height: 900px;
+  max-width: 100%;
+}
+.nowRelaxOctober > * > p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 700;
+  width: 80%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  color: black;
+  text-shadow: 0px 0px 5px rgba(255, 255, 255);
+}
+
+@media (min-width: 768px) {
+  .nowRelaxOctober {
+    height: 50vw;
+  }
+  .nowRelaxOctober > * > p {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+@media (min-width: 1024px) {
+  .nowRelaxOctober > * > p {
+    font-size: 30px;
+    line-height: 36px;
+    width: 70%;
   }
 }
