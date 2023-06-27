@@ -211,7 +211,7 @@ section {
   margin-bottom: 60px;
   display: inline-block;
   width: 100%;
-  text-align: center;
+  text-align: left;
 }
 .heading-block h2 {
   font-weight: 600;
@@ -246,7 +246,7 @@ section {
 }
 .heading-block h3 {
 }
-.heading-block h3:after {
+/* .heading-block h3:after {
   bottom: -15px;
   height: 1px;
   left: 0px;
@@ -267,7 +267,7 @@ section {
   margin: 0 auto;
   background: #252839;
   content: "";
-}
+} */
 .heading-block hr {
   width: 1px;
   content: "";
@@ -1793,7 +1793,7 @@ header .user-basket .cart-num {
   display: inline-block;
   margin-bottom: 0px;
 }
-.portfolio-item h4 a {
+.portfolio-item h4 {
   font-size: 16px;
   color: #fff;
   text-transform: uppercase;
@@ -1853,7 +1853,7 @@ header .user-basket .cart-num {
 .portfolio .position-bottom h4 {
   margin: 0px;
 }
-.portfolio .position-bottom h4 a {
+.portfolio .position-bottom h4 {
   color: #fff;
 }
 .portfolio .position-bottom p {
@@ -2761,6 +2761,9 @@ header .user-basket .cart-num {
 }
 .skill-bg.colr .progress-bars p {
   color: #fff;
+}
+.intro-small p{
+  color: #000;
 }
 .skill-bg.colr .skill-bg .intro-small p {
   color: #fff;
@@ -7797,6 +7800,11 @@ header.white-header #cd-menu-trigger.is-clicked .cd-menu-icon {
 }
 .large-hidden {
   display: none;
+}
+.profile-hr{
+  height: 2px;
+  background-color: 	#5A5A5A;
+  width: 640px;
 }
 /* End New Style DEVxHUB S */
 
