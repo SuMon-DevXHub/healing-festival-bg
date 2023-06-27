@@ -2277,6 +2277,7 @@ header .user-basket .cart-num {
   margin-bottom: 0px;
   font-size: 1.5vw;
   line-height: 2vw;
+  color: #000;
 }
 .team-name h6 {
   text-transform: uppercase;
