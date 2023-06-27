@@ -211,7 +211,7 @@ section {
   margin-bottom: 60px;
   display: inline-block;
   width: 100%;
-  text-align: center;
+  text-align: left;
 }
 .heading-block h2 {
   font-weight: 600;
@@ -246,7 +246,7 @@ section {
 }
 .heading-block h3 {
 }
-.heading-block h3:after {
+/* .heading-block h3:after {
   bottom: -15px;
   height: 1px;
   left: 0px;
@@ -267,7 +267,7 @@ section {
   margin: 0 auto;
   background: #252839;
   content: "";
-}
+} */
 .heading-block hr {
   width: 1px;
   content: "";
@@ -1797,7 +1797,7 @@ header .user-basket .cart-num {
   display: inline-block;
   margin-bottom: 0px;
 }
-.portfolio-item h4 a {
+.portfolio-item h4 {
   font-size: 16px;
   color: #fff;
   text-transform: uppercase;
@@ -1857,7 +1857,7 @@ header .user-basket .cart-num {
 .portfolio .position-bottom h4 {
   margin: 0px;
 }
-.portfolio .position-bottom h4 a {
+.portfolio .position-bottom h4 {
   color: #fff;
 }
 .portfolio .position-bottom p {
@@ -2789,6 +2789,9 @@ header .user-basket .cart-num {
 }
 .skill-bg.colr .progress-bars p {
   color: #fff;
+}
+.intro-small p{
+  color: #000;
 }
 .skill-bg.colr .skill-bg .intro-small p {
   color: #fff;
@@ -7892,4 +7895,217 @@ header.white-header #cd-menu-trigger.is-clicked .cd-menu-icon {
 .large-hidden {
   display: none;
 }
+.profile-hr{
+  height: 2px;
+  background-color: 	#5A5A5A;
+  width: 640px;
+}
 /* End New Style DEVxHUB S */
+
+/*=======================================================
+			Faq Page Style
+========================================================*/
+.fadeInOut-enter-active,
+.fadeInOut-leave-active {
+  transition: all 0.5s;
+}
+.fadeInOut-enter-from,
+.fadeInOut-leave-to {
+  opacity: 0;
+}
+.fadeInOut-enter-active {
+  transition-delay: 0.1s;
+}
+.faq-section {
+  border-top: 1px solid #ddd;
+  min-height: 100vh;
+  padding-top: 160px;
+  padding-bottom: 128px;
+  padding-left: 9%;
+  padding-right: 9%;
+}
+.faq-heading {
+  font-size: 48px;
+  line-height: 1;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #294617;
+}
+.singleFaqWrap {
+  color: #294617;
+  background: #feebb3;
+  border-radius: 24px;
+  margin-bottom: 5;
+  overflow: hidden;
+  margin-top: 20px;
+}
+.singleFaq {
+  display: flex;
+  /* margin-left: 8px; */
+  flex-direction: row;
+  width: 100%;
+  cursor: pointer;
+}
+.singleFaq h3 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.button-div {
+  display: flex;
+}
+.polygon {
+  clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
+  margin-bottom: 0px;
+}
+.faqIconStyle {
+  display: flex;
+  padding-left: 16px;
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  align-items: center;
+  min-height: 100%;
+  width: 150px;
+}
+.iconPlusStyle {
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+  background: #feebb3;
+}
+.iconMinusStyle {
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+  background: #294617;
+}
+.faq-title {
+  display: flex;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 500;
+  align-items: center;
+  min-height: 100%;
+}
+.faq-description {
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 24px;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+@media (max-width: 767px) {
+  .faq-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .faq-heading {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .faqIconStyle {
+    max-width: 90px;
+  }
+}
+
+@media (min-width: 768px) {
+  .singleFaq {
+    /* margin-left: 24px; */
+  }
+  .faqIconStyle {
+    padding-left: 32px;
+  }
+  .faq-title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .faq-description {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .faqIconStyle {
+    max-width: 120px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .faqIconStyle {
+    max-width: 150px;
+  }
+}
+
+/*=======================================================
+			Glimpse Schedule Style
+========================================================*/
+.glimpseSchedule {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.glimpseScheduleWrap {
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+.glimpseScheduleHorizontal {
+  background-color: #374151;
+  height: 2px;
+}
+.glimpseScheduleContentWrap {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.upperDivWrap {
+  padding-bottom: 16px;
+  width: 100%;
+}
+.upperDivWrap > * > .underline,
+.bottomDivWrap > * > .underline {
+  text-decoration-line: underline;
+}
+.bottomDivWrap {
+  width: 100%;
+}
+
+.ulListStyle {
+  font-size: 16px;
+  line-height: 24px;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+@media (min-width: 768px) {
+  .glimpseScheduleHorizontal {
+    align-self: flex-start;
+  }
+  .glimpseScheduleContentWrap {
+    flex-direction: row;
+  }
+  .upperDivWrap {
+    padding-bottom: 0;
+    width: 50%;
+  }
+  .bottomDivWrap {
+    width: 50%;
+  }
+  .ulListStyle {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .bottomDivWrap {
+    margin-left: 40px;
+  }
+}
+@media (min-width: 1024px) {
+  .ulListStyle {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
