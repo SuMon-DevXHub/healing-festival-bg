@@ -7936,3 +7936,74 @@ header.white-header #cd-menu-trigger.is-clicked .cd-menu-icon {
     max-width: 150px;
   }
 }
+
+/*=======================================================
+			Glimpse Schedule Style
+========================================================*/
+.glimpseSchedule {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.glimpseScheduleWrap {
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+.glimpseScheduleHorizontal {
+  background-color: #374151;
+  height: 2px;
+}
+.glimpseScheduleContentWrap {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.upperDivWrap {
+  padding-bottom: 16px;
+  width: 100%;
+}
+.upperDivWrap > * > .underline,
+.bottomDivWrap > * > .underline {
+  text-decoration-line: underline;
+}
+.bottomDivWrap {
+  width: 100%;
+}
+
+.ulListStyle {
+  font-size: 16px;
+  line-height: 24px;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+@media (min-width: 768px) {
+  .glimpseScheduleHorizontal {
+    align-self: flex-start;
+  }
+  .glimpseScheduleContentWrap {
+    flex-direction: row;
+  }
+  .upperDivWrap {
+    padding-bottom: 0;
+    width: 50%;
+  }
+  .bottomDivWrap {
+    width: 50%;
+  }
+  .ulListStyle {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .bottomDivWrap {
+    margin-left: 40px;
+  }
+}
+@media (min-width: 1024px) {
+  .ulListStyle {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
