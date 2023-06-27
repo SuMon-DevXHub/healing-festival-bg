@@ -1456,6 +1456,13 @@ header .user-basket .cart-num {
 .intro-small.white p {
   color: #fff;
 }
+
+.our-main-ser li p {
+  font-size: 1.5vw;
+  line-height: 2.5vw;
+  color: #000;
+  text-shadow: 0px 0px 5px rgba(255, 255, 255);
+}
 .about-ser,
 .bird-ser {
   padding: 140px 0;
@@ -2587,6 +2594,16 @@ header .user-basket .cart-num {
 /*=======================================================
       OUR MAIN SERVICES
 ========================================================*/
+.our-main-ser {
+  background-size: 100% 100%;
+  height: 56vw;
+  width: 100vw;
+  max-width: 100%;
+  min-height: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .our-main-ser li {
   text-align: center;
   margin-bottom: 40px;
@@ -2596,9 +2613,9 @@ header .user-basket .cart-num {
   margin: 30px 0;
   margin-bottom: 15px;
 }
-.our-main-ser li p {
+/* .our-main-ser li p {
   line-height: 24px;
-}
+} */
 .our-main-ser li i {
   font-size: 40px;
   height: 90px;
@@ -4003,12 +4020,11 @@ footer .links-footer li a:hover {
   position: relative;
   min-height: 600px;
 }
-.text-content{
+.text-content {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   left: 6%;
-  
 }
 .testimonial p {
   font-size: 2.5vw;
@@ -4145,6 +4161,8 @@ footer .links-footer li a:hover {
 			NEWS HOME
 ========================================================*/
 .new-main {
+  display: flex;
+  align-items: center;
 }
 .news-post article {
   text-align: left;
@@ -7672,6 +7690,7 @@ header.white-header #cd-menu-trigger.is-clicked .cd-menu-icon {
 }
 .leftColumn {
   width: 47%;
+  height: 337px;
 }
 .middleColumn {
   display: flex;
@@ -7695,6 +7714,7 @@ header.white-header #cd-menu-trigger.is-clicked .cd-menu-icon {
 }
 .rightColumn {
   width: 22%;
+  height: 337px;
 }
 @media (max-width: 991px) {
   .eventNewRow {
@@ -7755,6 +7775,28 @@ header.white-header #cd-menu-trigger.is-clicked .cd-menu-icon {
   color: black;
   text-shadow: 0px 0px 5px rgba(255, 255, 255);
 }
+.our-main-ser-container {
+  width: 2000px;
+}
+.nowRelaxOctober > * > p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2.5vw;
+  line-height: 3vw;
+  font-weight: 700;
+  width: 80%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  color: black;
+  text-shadow: 0px 0px 5px rgba(255, 255, 255);
+}
+@media (max-width: 1199px) and (min-width: 768px) {
+  .leftColumn,
+  .rightColumn {
+    height: 213px;
+  }
+}
 @media (max-width: 1023px) and (min-width: 768px) {
   .our-team-bg {
     background-size: 100% 100%;
@@ -7788,6 +7830,30 @@ header.white-header #cd-menu-trigger.is-clicked .cd-menu-icon {
     font-size: 2.5vw;
     line-height: 3vw;
     color: black;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255);
+  }
+  .our-main-ser {
+    background-size: 100% 100%;
+    height: 96vw;
+    width: 100vw;
+    max-height: 900px;
+    max-width: 100%;
+  }
+  .our-main-ser li p {
+    font-size: 2.5vw;
+    line-height: 3vw;
+    color: #000;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255);
+  }
+  .nowRelaxOctober > * > p {
+    font-size: 2.5vw;
+    line-height: 3vw;
+    width: 70%;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255);
+  }
+  .bottom-text{
+    font-size: 2vw;
+    line-height: 2.5vw;
     text-shadow: 0px 0px 5px rgba(255, 255, 255);
   }
 }
@@ -7925,7 +7991,7 @@ header.white-header #cd-menu-trigger.is-clicked .cd-menu-icon {
     line-height: 4vw;
     color: #000;
   }
-  .text-content{
+  .text-content {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -7937,6 +8003,30 @@ header.white-header #cd-menu-trigger.is-clicked .cd-menu-icon {
     font-size: 4vw;
     line-height: 4.5vw;
     color: black;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255);
+  }
+  .our-main-ser {
+    background-size: cover;
+    height: 100%;
+    width: 100vw;
+    max-height: 100%;
+    max-width: 100%;
+  }
+  .our-main-ser li p {
+    font-size: 4vw;
+    line-height: 4.5vw;
+    color: #000;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255);
+  }
+  .nowRelaxOctober > * > p {
+    font-size: 3.5vw;
+    line-height: 4vw;
+    width: 70%;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255);
+  }
+  .bottom-text{
+    font-size: 3.5vw;
+    line-height: 4vw;
     text-shadow: 0px 0px 5px rgba(255, 255, 255);
   }
 }
@@ -8235,33 +8325,27 @@ header.white-header #cd-menu-trigger.is-clicked .cd-menu-icon {
   max-height: 900px;
   max-width: 100%;
 }
-.nowRelaxOctober > * > p {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  font-size: 14px;
-  line-height: 28px;
-  font-weight: 700;
-  width: 80%;
-  transform: translateX(-50%) translateY(-50%);
-  text-align: center;
-  color: black;
-  text-shadow: 0px 0px 5px rgba(255, 255, 255);
-}
 
 @media (min-width: 768px) {
   .nowRelaxOctober {
     height: 50vw;
   }
   .nowRelaxOctober > * > p {
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 2vw;
+    line-height: 2.5vw;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255);
   }
 }
 @media (min-width: 1024px) {
   .nowRelaxOctober > * > p {
-    font-size: 30px;
-    line-height: 36px;
+    font-size: 2vw;
+    line-height: 2.5vw;
     width: 70%;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255);
+  }
+  .bottom-text{
+    font-size: 1.5vw;
+    line-height: 2vw;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255);
   }
 }
