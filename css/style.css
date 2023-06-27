@@ -1448,6 +1448,18 @@ header .user-basket .cart-num {
 }
 .about-ser {
   padding: 140px 0;
+  height: 50vw;
+  width: 100vw;
+  max-height: 900px;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-ser-container {
+  max-width: 1170px;
+  min-width: 1170px;
+  white-space: nowrap;
 }
 .about-ser p {
   font-size: 18px;
@@ -7636,8 +7648,91 @@ header.white-header #cd-menu-trigger.is-clicked .cd-menu-icon {
     margin-top: 30px;
   }
 }
-
+.about-ser-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 90%;
+}
+.text-container {
+  margin-left: 14%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.about-ser-top-line {
+  height: 0.2rem /* 2px */;
+  width: 60%;
+  align-self: flex-start;
+  background-color: black;
+  margin-left: 14%;
+}
+.about-ser-bottom-line {
+  height: 0.2rem /* 2px */;
+  width: 60%;
+  align-self: flex-end;
+  background-color: black;
+}
+.about-ser p {
+  font-size: 2vw;
+  line-height: 2vw;
+  text-shadow: 0px 0px 5px rgba(255, 255, 255);
+  color: black;
+}
+.about-ser .second {
+  margin-top: 3vw;
+}
+.main-page-section p {
+  font-size: 14px;
+}
 @media (max-width: 767px) {
+  .about-ser {
+    padding: 140px 0;
+    height: 70vw;
+    width: 100vw;
+    max-height: 900px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-ser-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+  }
+  .text-container {
+    margin-left: 0%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+  .about-ser-top-line {
+    height: 0.2rem /* 2px */;
+    width: 90%;
+    align-self: center;
+    background-color: black;
+    margin-left: 0%;
+  }
+  .about-ser-bottom-line {
+    height: 0.2rem /* 2px */;
+    width: 90%;
+    align-self: center;
+    background-color: black;
+  }
+  .about-ser p {
+    font-size: 3.5vw;
+    line-height: 3.5vw;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255);
+  }
+  .about-ser .second {
+    margin-top: 4vw;
+  }
+  .about-ser-container {
+    white-space: normal;
+    width: 100%;
+    max-width: none;
+    min-width: 100%;
+  }
   .pricing article .price-head {
     padding-left: 0px;
     text-align: center;
@@ -7670,12 +7765,6 @@ header.white-header #cd-menu-trigger.is-clicked .cd-menu-icon {
   .rightColumn {
     width: 83.333333333333%;
   }
-}
-.about-ser p {
-  font-size: 14px;
-}
-.main-page-section p {
-  font-size: 14px;
 }
 .testimonial p {
   font-size: 14px;
