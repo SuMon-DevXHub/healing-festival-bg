@@ -3720,6 +3720,10 @@ footer {
 }
 .foot-logo {
   margin-bottom: 30px;
+  height: 38px;
+}
+.no-wrap {
+  white-space: nowrap;
 }
 footer .links li {
   display: inline-block;
@@ -3847,18 +3851,18 @@ footer ul li.hire-me-link a {
   color: #fff;
   font-size: 14px;
   margin: 0 5px;
-  height: 30px;
-  width: 30px;
-  text-align: center;
+  /* height: 30px;
+  width: 30px; */
+  /* text-align: center;
   line-height: 30px;
-  border-radius: 50%;
+  border-radius: 50%; */
   margin: 0 3px;
   display: inline-block;
 }
-.foot-down a:hover {
+/* .foot-down a:hover {
   background: #fff;
   color: #000;
-}
+} */
 .footer-shop h4 {
   font-size: 20px;
   color: #fff;
@@ -7766,7 +7770,19 @@ header.white-header #cd-menu-trigger.is-clicked .cd-menu-icon {
     line-height: 2.5vw;
   }
 }
+.center-1 {
+  text-align: left;
+}
+.center-2 {
+  text-align: right;
+}
 @media (max-width: 767px) {
+  .center-1 {
+    text-align: center;
+  }
+  .center-2 {
+    text-align: center;
+  }
   .about-ser {
     padding: 140px 0;
     height: 90vw;
